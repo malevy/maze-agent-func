@@ -39,4 +39,4 @@ jobs:
         app-name: 'maze-agent-func'
         slot-name: 'production'
         package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_99a2ef32766940ec9dac9c73e0c5b914 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile }}
